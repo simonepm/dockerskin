@@ -1,0 +1,17 @@
+{
+    "name": "hello-node",
+    "author": "Simone P. M. <simonepm.me@gmail.com>",
+    "main": "main.js",
+    "scripts": {
+        "start": "NODE_ENV=development node main.js",
+        "test": "mocha --reporter spec test.js",
+        "main": "NODE_ENV=production node main.js"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "mocha": "^8.0.1"
+    },
+    "dependencies": {
+        "express": "^4.16.1"
+    }
+}
